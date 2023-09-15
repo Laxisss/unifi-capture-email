@@ -31,13 +31,13 @@ $auth_result = $unifi_connection->authorize_guest($mac, $duration, $up = null, $
 <!doctype html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <title>WiFi Portal</title>
-        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+      <meta charset="utf-8">
+      <title>WiFi Portal</title>
+      <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<meta http-equiv="refresh" content="5;url=https://www.snsolutions.fr/" />
     </head>
     <body>
-            <p>Tu es en ligne! <br>
-            Merci de nous rendre visite !</p>
+      <p>Tu es en ligne! <br>
+      Merci de nous rendre visite !</p>
     </body>
 </html>
