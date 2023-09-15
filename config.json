@@ -1,0 +1,6 @@
+{
+  "dbServer": "localhost",
+  "dbUser": "root",
+  "dbPassword": "",
+  "dbName" : "unifi"
+}
