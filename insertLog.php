@@ -1,8 +1,8 @@
 <?php
-$mac = $_POST["id"];
-$ap = $_POST["ap"];
-$name = $_POST['name'];
-$email = $_POST['email'];
+// $mac = $_POST["id"];
+// $ap = $_POST["ap"];
+// $name = $_POST['name'];
+// $email = $_POST['email'];
 
 $configPath = './config.json';
 $jsonString = file_get_contents($configPath);
@@ -15,10 +15,10 @@ $stmt = mysqli_prepare($connection, $query);
 $params = [$mac,$name,$email];
 $exe = mysqli_stmt_execute($stmt);
 if($exe) {
-  echo '200';
+  echo '<script>console.log(200);</script>';
 }
 else {
-  echo '400';
+  echo '<script>console.log(400);</script>';
 }
 mysqli_stmt_close($stmt);
 mysqli_close($connection);

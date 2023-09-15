@@ -7,6 +7,8 @@ $ap = $_SESSION["ap"];
 $name = $_POST['name'];
 $email = $_POST['email'];
 
+include './insertLog.php';
+
 require __DIR__ . '/vendor/autoload.php';
 
 $duration = 30;
